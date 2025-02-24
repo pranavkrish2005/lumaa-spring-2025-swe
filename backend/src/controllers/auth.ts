@@ -2,10 +2,7 @@ import { Request, Response } from 'express';
 import { Pool } from 'pg';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-});
+import pool from '../models/db';
 
 export const register = async (req: Request, res: Response) => {
   const { username, password } = req.body;

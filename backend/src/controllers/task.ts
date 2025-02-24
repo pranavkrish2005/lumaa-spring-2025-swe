@@ -53,13 +53,11 @@ export const updateTask = async (req: AuthenticatedRequest, res: Response) => {
   const { title, description, isComplete } = req.body;
 
   try {
-    // Validate input
     if (!title) {
       res.status(400).json({ error: 'Title is required' });
       return;
     }
 
-    // Check if task exists and belongs to user
     const taskExists = await pool.query(
       'SELECT id FROM tasks WHERE id = $1 AND user_id = $2',
       [id, req.user?.id]
