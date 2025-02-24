@@ -36,19 +36,23 @@
 
 1. **Navigate to the backend directory**:
    ```bash
-   cd <backend-directory>
+   cd backend
    npm install
    ```
 2. **Start the Backend Server**:
    ```bash
    npm start
    ```
+   or
+   ```bash
+   npm run dev
+   ```
 
 ### How to run the frontend.
 
 1. **Navigate to the frontend directory**:
    ```bash
-   cd <frontend-directory>
+   cd frontend
    npm install
    ```
 2. **Start the Backend Server**:
