@@ -5,7 +5,7 @@
 ---
 
 ## Deliverables
-## Steps to Set Up the Database (Migrations, Environment Variables)
+### Steps to Set Up the Database (Migrations, Environment Variables)
 
 1. **Install PostgreSQL**:
    Make sure you have PostgreSQL installed on your machine and run it
@@ -32,7 +32,7 @@
      npm run migrations
      ```
 
-## How to Run the Backend
+### How to Run the Backend
 
 1. **Navigate to the backend directory**:
    ```bash
@@ -59,7 +59,8 @@
    ```bash
    npm run dev
    ```
-### Salary Expectations per month (Mandatory)
+
+## Salary Expectations per month (Mandatory)
 I my expectations are around $25 per hour and can work for 20 hours per week. Which translates to about $2,000 per month.
 
 
