@@ -64,7 +64,7 @@
 I my expectations are around $25 per hour and can work for 20 hours per week. Which translates to about $2,000 per month.
 
 ## Here is the video
-[![Watch the video](https://youtu.be/KHpf7OdjuJU)
+[Watch the demo video](https://www.youtube.com/watch?v=KHpf7OdjuJU)
 
 
 ## Overview
