@@ -4,6 +4,61 @@
 
 ---
 
+## Deliverables
+## Steps to Set Up the Database (Migrations, Environment Variables)
+
+1. **Install PostgreSQL**:
+   Make sure you have PostgreSQL installed on your machine and run it
+   ```
+   psql -U postgres
+   ```
+
+3. **Set Up the Database**:
+   - Create a new PostgreSQL database called `taskmanager`:
+     ```sql
+     CREATE DATABASE taskmanager;
+     ```
+
+4. **Configure Environment Variables**:
+   - In the `.env` file file that I added into the backend, please put the DATABASE_URL and the JWT_SECRET. Change as you see fit:
+     ```
+     DATABASE_URL=postgres://<username>:<password>@localhost:5432/taskmanager
+     ```
+     Replace `<username>` and `<password>` with your PostgreSQL credentials.
+
+5. **Run Migrations**:
+   - Execute the migration script to create the necessary tables:
+     ```bash
+     npm run migrations
+     ```
+
+## How to Run the Backend
+
+1. **Navigate to the backend directory**:
+   ```bash
+   cd <backend-directory>
+   npm install
+   ```
+2. **Start the Backend Server**:
+   ```bash
+   npm start
+   ```
+
+### How to run the frontend.
+
+1. **Navigate to the frontend directory**:
+   ```bash
+   cd <frontend-directory>
+   npm install
+   ```
+2. **Start the Backend Server**:
+   ```bash
+   npm run dev
+   ```
+### Salary Expectations per month (Mandatory)
+I my expectations are around $25 per hour and can work for 20 hours per week. Which translates to about $2,000 per month.
+
+
 ## Overview
 
 Create a “Task Management” application with **React + TypeScript** (frontend), **Node.js** (or **Nest.js**) (backend), and **PostgreSQL** (database). The application should:
